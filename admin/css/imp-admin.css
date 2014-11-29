@@ -1,0 +1,132 @@
+/**
+ * All of the CSS for your dashboard-specific functionality should be
+ * included in this file.
+ */
+ @import url(../font-awesome/css/font-awesome.min.css);
+
+ .page_title{
+ 	color: #DC5422;
+ }
+
+ .row{
+ 	width: 100%;
+ 	display: block;
+ }
+ .col-xs-4{
+ 	width: 33%;
+ 	display: inline-block;
+ }
+ .col-xs-6{
+ 	width: 49.5%;
+ 	display: inline-block;
+ }
+ .col-xs-3{
+ 	width: 24.5%;
+ 	display: inline-block;
+ }
+
+ .col-xs-10{
+ 	width: 83%;
+ 	display: inline-block;
+ }
+ .col-xs-2{
+ 	width: 16%;
+ 	display: inline-block;
+ }
+ .text-center{
+ 	text-align: center;
+ }
+
+ 
+ /*IMPORT CSV*/
+ .import_csv{
+ 	margin-bottom: 15px !important;
+ }
+
+ .modal_container{
+ 	display: none;
+ 	position: fixed;
+ 	top: 0;
+ 	left: 0;
+ 	background: rgba(0,0,0,0.5);
+ 	height: 100%;
+ 	width: 100%;
+ 	z-index: 3200;
+ }
+
+ .cancel{
+ 	z-index: 3201;
+ 	height: 100%;
+ 	width: 100%;
+ }
+ .modal{
+ 	position: absolute;
+ 	top: 20%;
+ 	left: 35%;
+ 	min-height: 300px;
+ 	width: 500px;
+ 	background: #fff;
+ 	z-index: 3202;
+ }
+
+ .modal-title{
+ 	height: 50px;
+ 	line-height: 50px;
+ 	position: relative;
+ 	border-bottom: 1px solid #eaeaea;
+ 	font-size: 18px;
+ 	padding: 0px 10px;
+ }
+
+ .modal-title .col-xs-2{
+ 	width: 11%;
+ 	float: right;
+ 	margin-right: -8px;
+ 	text-align: center;
+ }
+ .cancel-btn{
+ 	display: inline-block;
+ 	border-left: 1px solid #eaeaea;
+ 	border-right: 1px solid #eaeaea;
+ 	color: #444;
+ }
+
+ .cancel-btn:hover{
+ 	background: #2ea2cc;
+ 	color: #fff;
+ }
+
+ .done_button{
+ 	float: right;
+ 	margin-right: 20px !important;
+ }
+
+ .csv_message{
+ 	padding-left: 20px;
+ }
+
+ .imported_contacts .stage-icon{
+ 	background-color: #e94b3b;
+ 	color: #fff;
+ }
+
+ .imported_list_container{
+ 	padding: 20px 0 10px 0 ;
+ }
+
+ .format{
+ 	padding: 10px;
+ }
+
+
+ .selected{
+ 	background-color: #ecf0f1;
+ }
+
+ .instruct_upload{
+ 	padding-left: 20px;
+ }
+
+ .message_container {
+ 	padding: 20px 0px 50px 0px;
+ }

@@ -1,0 +1,32 @@
+
+label{
+	width: 100px;
+	display: inline-block;
+	font-weight: bold;
+}
+.email_subject{
+	width: 400px;
+	border-radius: 4px;
+	margin: 6px 12px;
+}
+.chosen-choices{
+	border-radius: 4px;
+}
+.wp-editor-area{
+	height: 300px;
+}
+
+.select_all, .remove_all{
+	margin: 6px 0px 6px 12px!important;
+}
+.send_mail{
+	margin: 12px 0 !important;
+	display: inline-block;
+}
+
+.notification{
+	width: 97%;
+	background: #fff;
+	padding: 10px 15px;
+	color: #27ae60;
+}

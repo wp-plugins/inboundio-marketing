@@ -1,0 +1,24 @@
+/**
+ * All of the CSS for your dashboard-specific functionality should be
+ * included in this file.
+ */
+ form{
+ 	padding: 20px;
+ }
+ label{
+ 	font-weight: bold;
+ 	display: inline-block;
+ 	width: 150px;
+ }
+
+ .form-control{
+ 	display: inline-block;
+ 	width: 300px;
+ 	border-radius: 4px;
+ }
+
+ .submit_btn{
+ 	margin-top: 10px !important;
+ 	display: inline-block;
+ }
+
