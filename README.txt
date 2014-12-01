@@ -74,5 +74,14 @@ You might loose all your contacts. Hence you should always create a backup conta
 
 == Changelog ==
 
-= 1.0 =
+= 1.0.1 =
+* The contact list is now searchable and sortable.
+
+= 1.0.0 =
 * First Release.
+
+== Upgrade Notice ==
+
+= 1.0 =
+This version provides you with a searchable/sortable contact list user interface.
+

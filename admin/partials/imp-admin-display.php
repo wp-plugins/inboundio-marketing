@@ -23,7 +23,7 @@
 			<a href="#" class="button button-primary button-large export_csv">Export Contacts</a>
 		</div>
 		<div class="CRM">
-			<table class="wp-list-table widefat fixed" id="lead_list">
+			<table class="wp-list-table widefat fixed stripe hover" id="lead_list">
 				<thead>
 					<tr>
 						<th>First Name</th>

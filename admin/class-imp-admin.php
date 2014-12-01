@@ -86,6 +86,7 @@ class Imp_Admin {
 		$screen = get_current_screen();
 		if ( $this->plugin_screen_hook_suffix == $screen->id ) {
 			wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/imp-admin.css', array(), $this->version, 'all' );
+			wp_enqueue_style( $this->plugin_name .'-jquery.dataTables.min', plugin_dir_url( __FILE__ ) . 'css/jquery.dataTables.min.css', array(), $this->version, 'all' );
 			wp_enqueue_style( $this->plugin_slug .'-dropzone-styles', plugins_url( 'css/dropzone.css', __FILE__ ), array(), $this->version, 'all' );
 
 		}
@@ -124,6 +125,7 @@ class Imp_Admin {
 
 		$screen = get_current_screen();
 		if ( $this->plugin_screen_hook_suffix == $screen->id ) {
+			wp_enqueue_script( $this->plugin_slug . '-admin-script-dataTables', plugins_url( 'js/jquery.dataTables.min.js', __FILE__ ), array( 'jquery' ), $this->version, false );
 			wp_enqueue_script( $this->plugin_slug . '-admin-script-dropzone', plugins_url( 'js/dropzone.js', __FILE__ ), array( 'jquery' ), $this->version, false );
 			wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/imp-admin.js', array( 'jquery' ), $this->version, false );
 		}
