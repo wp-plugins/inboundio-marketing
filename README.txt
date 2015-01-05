@@ -3,7 +3,7 @@ Contributors: anurag722
 Donate link: anurag722@hotmail.com
 Tags: Inbound, Inbound Marketing, Marketing, Import Contacts, Email, Email Marketing, SEO, SEM, SMO, Leads, CRM, Contacts, Newsletter, Mass Email, Bulk Email Marketing, Marketing Software
 Requires at least: 3.0.1
-Tested up to: 3.4
+Tested up to: 4.1
 Stable tag: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
