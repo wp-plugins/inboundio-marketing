@@ -14,7 +14,7 @@ InBoundio Marketing Plugin can be used to manage contacts/leads and send emails 
 
 Inboundio Marketing Plugin provides you an efficient solution to mail/manage potential leads on your website. You can create a subscriber, import a list, or export all your contacts to a CSV. It also provides you the facility to mail individuals, or a group of subscribers simultaneously. A wordpress derrived WYSIWYG editor lets you compose awesome email templates, which you can mail instantly. A must have plugin who need to send newsletters to customers. 
 
-Inboundio Marketing Plugin is a free addon to <a href="http://www.inboundio.com">Inboundio PRO</a> software, which is the next generation Marketing solution and the only white label marketing software on the web using which you can launch your marketing software or agency in just 1 day.
+Inboundio Marketing Plugin is a free addon to  <a href="http://inboundio.com/">Inboundio</a> and <a href="http://aeroleads.com/">AeroLeads</a> Software, which is the next generation Marketing solution and the only white label marketing software on the web using which you can launch your marketing software or agency in just 1 day.
 
 == Installation ==
 
