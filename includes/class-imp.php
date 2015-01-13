@@ -163,6 +163,7 @@ class Imp {
 		$this->loader->add_action( 'wp_ajax_parse_csv', $plugin_admin, 'action_parse_csv'  );
 		$this->loader->add_action( 'wp_ajax_export_csv', $plugin_admin, 'action_export_csv'  );
 		$this->loader->add_action( 'wp_ajax_new_contact', $plugin_admin, 'action_new_contact'  );
+		$this->loader->add_action( 'wp_ajax_nopriv_new_contact', $plugin_admin, 'action_new_contact'  );
 		$this->loader->add_action( 'wp_ajax_send_mail', $plugin_admin, 'action_send_mail'  );
 		$this->loader->add_action( 'wp_ajax_delete_multiple', $plugin_admin, 'action_delete_multiple'  );
 		
@@ -183,6 +184,8 @@ class Imp {
 		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_styles' );
 		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_scripts' );
 
+		// Adding ajax library in frontend
+		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'add_ajax_library' );
 	}
 
 	/**

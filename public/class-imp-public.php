@@ -100,4 +100,16 @@ class Imp_Public {
 
 	}
 
+	public function add_ajax_library() {
+		
+		$html = '<script type="text/javascript">';
+		$html .= 'var ajaxurl = "' . admin_url( 'admin-ajax.php' ) . '";';
+		$html .= 'var plugins_url = "' . plugins_url() . '";';
+		$html .= 'var pluginurl = "' . plugin_dir_url(basename( __DIR__ )) . '";';
+		$html .= '</script>';
+		
+		echo $html;	
+		
+	} // end add_ajax_library
+
 }

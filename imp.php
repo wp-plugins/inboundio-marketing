@@ -56,6 +56,7 @@ register_deactivation_hook( __FILE__, 'deactivate_imp' );
  * dashboard-specific hooks, and public-facing site hooks.
  */
 require plugin_dir_path( __FILE__ ) . 'includes/class-imp.php';
+require plugin_dir_path( __FILE__ ) . 'includes/class-imp-widget.php';
 
 /**
  * Begins execution of the plugin.
@@ -71,5 +72,6 @@ function run_imp() {
 	$plugin = new Imp();
 	$plugin->run();
 
+	$widget = new Imp_Widget();
 }
 run_imp();
