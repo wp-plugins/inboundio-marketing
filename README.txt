@@ -4,7 +4,7 @@ Donate link: anurag722@hotmail.com
 Tags: Inbound, Inbound Marketing, Marketing, Import Contacts, Email, Email Marketing, SEO, SEM, SMO, Leads, CRM, Contacts, Newsletter, Mass Email, Bulk Email Marketing, Marketing Software
 Requires at least: 3.0.1
 Tested up to: 4.1
-Stable tag: 4.3
+Stable tag: 2.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,6 +13,8 @@ InBoundio Marketing Plugin can be used to manage contacts/leads and send emails 
 == Description ==
 
 Inboundio Marketing Plugin provides you an efficient solution to mail/manage potential leads on your website. You can create a subscriber, import a list, or export all your contacts to a CSV. It also provides you the facility to mail individuals, or a group of subscribers simultaneously. A wordpress derrived WYSIWYG editor lets you compose awesome email templates, which you can mail instantly. A must have plugin who need to send newsletters to customers. 
+
+With the new widget, you can actively convert visitors on your blog into potential leads.
 
 Inboundio Marketing Plugin is a free addon to  <a href="http://inboundio.com/">Inboundio</a> and <a href="http://aeroleads.com/">AeroLeads</a> Software, which is the next generation Marketing solution and the only white label marketing software on the web using which you can launch your marketing software or agency in just 1 day.
 
@@ -29,6 +31,9 @@ e.g.
 5. Go to Send Email Menu, set a Subject for your mail, select the list of recepients. You can select multiple recepients too.
 6. Compose a body of the mail.
 7. Send the mail to all the recepients.
+8. To add widget, go to Dashboard -> Appearance -> Widgets.
+9. Add the new widget, by dragging inboundio marketing widget, into your widget area.
+10. The default title is "Subscribe to your-blog-name", in case you want to customise the title of the widget, provide it in the form in Appearance -> Widgets -> inboundio-marketing.
 
 == Frequently Asked Questions ==
 
@@ -59,6 +64,12 @@ Gmail and Outlook have changed their policies for spam/junk filteration. You can
 1. Goto Inboundio Marketing menu.
 2. Click on the export contacts to save a local copy of your contact list.
 
+= How do add the new widget to my blog? =
+
+1. Goto Appearance menu.
+2. Drag the inboundio marketing widget in your widget area.
+3. Provide a title for your widget. The default title is set to "Subscribe to your-blog-name".
+
 = What if I re-install the plugin? =
 
 You might loose all your contacts. Hence you should always create a backup contacts.csv file through "export contacts" option. Once you re-install the plugin, you can import this file and recover all your contacts.
@@ -71,8 +82,13 @@ You might loose all your contacts. Hence you should always create a backup conta
 3. Successfull Email Delivery.
 4. List of Contacts
 5. Import Contacts form.
+6. Add Inboundio Marketing Widget in your widget area.
+7. Inboundio Marketing Widget.
 
 == Changelog ==
+
+= 2.0 =
+* A form in the widget area on your blog, now convert more visitors into leads.  
 
 = 1.0.1 =
 * The contact list is now searchable and sortable.
