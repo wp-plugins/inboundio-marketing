@@ -16,7 +16,7 @@
  * Plugin Name:       InBoundio Marketing
  * Plugin URI:        http://www.inboundio.com/
  * Description:       InBoundio Marketing can be used to manage contacts/leads and send emails to them.
- * Version:           1.0.0
+ * Version:           2.0
  * Author:            InBoundio
  * Author URI:        http://www.inboundio.com/
  * License:           GPL-2.0+
