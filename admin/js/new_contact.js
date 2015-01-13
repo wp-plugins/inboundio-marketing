@@ -14,6 +14,7 @@
 			$.post(ajaxurl, data)
 			.success(function(){
 				alert("Contact Saved");
+				$(".new_contact")[0].reset();
 			})
 			event.preventDefault();
 		});
