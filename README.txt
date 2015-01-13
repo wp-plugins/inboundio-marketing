@@ -98,6 +98,9 @@ You might loose all your contacts. Hence you should always create a backup conta
 
 == Upgrade Notice ==
 
+= 2.0 =
+This version provides you with a widget to convert your visitors into leads.
+
 = 1.0 =
 This version provides you with a searchable/sortable contact list user interface.
 
