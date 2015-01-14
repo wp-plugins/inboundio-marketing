@@ -8,20 +8,8 @@
  * @author    Anurag Singh <anurag722@hotmail.com>
  * @license   GPL-2.0+
  * @link      http://www.inboundio.com
- * @copyright 2014 Your Name or Company Name
+ * @copyright 2014 Anurag Singh
  *
- * @wordpress-plugin
- * Plugin Name:       InBoundio Marketing
- * Plugin URI:        www.inboundio.com
- * Description:       InBoundio Marketing can be used to capture visitors and convert them into contacts/leads and send emails to them.
- * Version:           1.0.0
- * Author:            Inboundio
- * Author URI:        www.inboundio.com
- * Text Domain:       im-widget
- * License:           GPL-2.0+
- * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
- * Domain Path:       /lang
- * GitHub Plugin URI: https://github.com/<owner>/<repo>
  */
  
  // Prevent direct file access

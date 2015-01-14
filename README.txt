@@ -87,6 +87,9 @@ You might loose all your contacts. Hence you should always create a backup conta
 
 == Changelog ==
 
+= 2.0.2 =
+* Minor installation bug fixes, invalid header fixed.
+
 = 2.0.1 =
 * Form resets to empty, after saving a new contact, through dashboard.  
 
