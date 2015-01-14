@@ -11,9 +11,9 @@
  * @copyright 2014 Your Name or Company Name
  *
  * @wordpress-plugin
- * Plugin Name:       Inboundio Lead
+ * Plugin Name:       InBoundio Marketing
  * Plugin URI:        www.inboundio.com
- * Description:       InBoundio Lead can be used to capture visitors and convert them into contacts/leads and send emails to them.
+ * Description:       InBoundio Marketing can be used to capture visitors and convert them into contacts/leads and send emails to them.
  * Version:           1.0.0
  * Author:            Inboundio
  * Author URI:        www.inboundio.com
@@ -71,7 +71,7 @@ class Imp_Widget extends WP_Widget {
 			__( 'Inboundio Marketing', $this->get_widget_slug() ),
 			array(
 				'classname'  => $this->get_widget_slug().'-class',
-				'description' => __( 'InBoundio Lead can be used to capture visitors and convert them into contacts/leads and send emails to them.', $this->get_widget_slug() )
+				'description' => __( 'InBoundio Marketing can be used to capture visitors and convert them into contacts/leads and send emails to them.', $this->get_widget_slug() )
 			)
 		);
 
