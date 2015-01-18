@@ -43,7 +43,12 @@ global $wpdb;
 						$rows = $wpdb->get_results( "SELECT * FROM $table_name");
 						if($rows){
 							foreach ($rows as $row) { ?>
+							if($row->first_name||$row->last_name){
 							<option value="<?php echo $row->email_address?>"><?php echo $row->first_name." ".$row->last_name; ?></option>
+							}
+							else {
+							<option value="<?php echo $row->email_address?>"><?php $row->email_address; ?></option>
+							}
 							<?php }
 						}
 						?>
