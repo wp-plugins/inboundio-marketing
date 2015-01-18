@@ -69,6 +69,7 @@ Gmail and Outlook have changed their policies for spam/junk filteration. You can
 1. Goto Appearance menu.
 2. Drag the inboundio marketing widget in your widget area.
 3. Provide a title for your widget. The default title is set to "Subscribe to your-blog-name".
+4. Re-order the widget in the sidebar as per your requirement. A more visible region would increase the probability of user to sign up.
 
 = What if I re-install the plugin? =
 
@@ -86,6 +87,9 @@ You might loose all your contacts. Hence you should always create a backup conta
 7. Inboundio Marketing Widget.
 
 == Changelog ==
+
+= 2.0.3 =
+* Blank names with emails, are allowed to load in send-mail option. Now you can add/select emails for contacts with empty names.
 
 = 2.0.2 =
 * Minor installation bug fixes, invalid header fixed.
