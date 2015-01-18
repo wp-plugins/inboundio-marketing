@@ -16,7 +16,7 @@
 global $wpdb;
 ?>
 <div class="wrap">
-<h2>Compose Mail</h2>
+	<h2>Compose Mail</h2>
 	<hr>
 	<div class="notification success_message" style="display: none;">
 		<i class="fa fa-check"></i> Emails Send Successfully.
@@ -42,14 +42,13 @@ global $wpdb;
 						$table_name = $wpdb->prefix . "imp_leads"; 
 						$rows = $wpdb->get_results( "SELECT * FROM $table_name");
 						if($rows){
-							foreach ($rows as $row) { ?>
-							if($row->first_name||$row->last_name){
-							<option value="<?php echo $row->email_address?>"><?php echo $row->first_name." ".$row->last_name; ?></option>
+							foreach ($rows as $row) { 
+								if($row->first_name||$row->last_name){ ?>
+								<option value="<?php echo $row->email_address?>"><?php echo $row->first_name." ".$row->last_name; ?></option>
+								<?php } else { ?>
+								<option value="<?php echo $row->email_address?>"><?php $row->email_address; ?></option>
+								<?php }
 							}
-							else {
-							<option value="<?php echo $row->email_address?>"><?php $row->email_address; ?></option>
-							}
-							<?php }
 						}
 						?>
 					</select>

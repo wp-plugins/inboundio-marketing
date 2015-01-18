@@ -88,8 +88,11 @@ You might loose all your contacts. Hence you should always create a backup conta
 
 == Changelog ==
 
-= 2.0.2 =
+= 2.0.3 =
 * Blank names with emails, are allowed to load in send-mail option. Now you can add/select emails for contacts with empty names.
+
+= 2.0.2 =
+* Minor installation bug fixes, invalid header fixed.
 
 = 2.0.1 =
 * Form resets to empty, after saving a new contact, through dashboard.  
