@@ -62,7 +62,7 @@
 	 			var responses = response.split(" ");
 	 			response = responses[0];
 	 			var size = responses[2];
-
+	 			
 	 			$(".file_url").val(response);
 	 			$(".file_size").val(size);
 	 			$(".csv_message").html("CSV uploaded Succesfully");

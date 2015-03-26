@@ -19,7 +19,7 @@
 	<hr>
 	<div class="container">
 		<div class="cta_buttons">
-			<a href="#" class="button button-primary button-large import_csv">Import Contacts</a>
+			<!-- <a href="#" class="button button-primary button-large import_csv">Import Contacts</a> -->
 			<a href="#" class="button button-primary button-large export_csv">Export Contacts</a>
 		</div>
 		<div class="CRM">
