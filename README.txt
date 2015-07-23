@@ -1,6 +1,6 @@
 === InBoundio Marketing Plugin ===
 Contributors: anurag722
-Donate link: anurag722@hotmail.com
+Donate link: anurag722@hotmail.com, c9developer
 Tags: Inbound, Inbound Marketing, Marketing, Import Contacts, Email, Email Marketing, SEO, SEM, SMO, Leads, CRM, Contacts, Newsletter, Mass Email, Bulk Email Marketing, Marketing Software
 Requires at least: 3.0.1
 Tested up to: 4.1
